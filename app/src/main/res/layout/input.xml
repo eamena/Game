@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/info1"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+        <TableRow
+            android:stretchColumns="0,1">
+            <TextView
+                android:text="@string/TextView"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/StartDate"
+                android:layout_width="150dp" />
+            <TextView
+                android:text ="@string/TextView2"
+                android:id="@+id/EndDate"
+                android:layout_width="150dp" />
+
+        </TableRow>
+        <TableRow
+            android:stretchColumns="0,1">
+            <EditText
+                android:id="@+id/StartDate1"
+                android:inputType="date|number" />
+            <EditText
+                android:id="@+id/EndDate1"
+                android:inputType="date|number" />
+
+        </TableRow>
+        <TableRow
+            android:stretchColumns="0,1">
+            <EditText
+                android:id="@+id/StartDate2"
+                android:inputType="date|number" />
+            <EditText
+                android:id="@+id/EndDate2"
+                android:inputType="date|number" />
+
+        </TableRow>
+        <TableRow
+            android:stretchColumns="0,1">
+            <EditText
+                android:id="@+id/StartDate3"
+                android:inputType="date|number" />
+            <EditText
+                android:id="@+id/EndDate3"
+                android:inputType="date|number" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:id="@+id/submit"
+                android:layout_column="0" />
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>

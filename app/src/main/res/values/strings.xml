@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agenda</string>
+    <string name="button">New Start-End Date</string>
+    <string name="button2">Query of Start-End Pairs</string>
+    <string name="button3">List of All Start-End Date</string>
+    <string name="submit">Submit</string>
+    <string name="action_settings">Settings</string>
+    <string name="TextView">Start Date</string>
+    <string name="TextView2">End Date</string>
+    <string name="TextView3">Date</string>
+    <string name="TextView4">Result</string>
+    <string name="info1">Type the start and end date in the following format yyyy/mm/dd:</string>
+    <string name="info2">Type the a date to find it is inside or outside the start end date pairs
+                         in the following format yyyy/mm/dd:</string>
+
+
+</resources>
